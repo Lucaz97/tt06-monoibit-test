@@ -25,7 +25,7 @@ async def test_adder(dut):
 
   # Set the input values, wait one clock cycle, and check the output
   for i in range(65539):
-    dut.ui_in.value = ranodm.randint(0,1)
+    dut.ui_in.value = random.randint(0,1)
     await ClockCycles(dut.clk, 1)
 
   dut._log.info("Test")
