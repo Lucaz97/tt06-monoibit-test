@@ -18,3 +18,6 @@ Explain how to use your project
 ## External hardware
 
 List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+
+## How to use 
+send one bit per clock cycle to the epsilon port. check is_random when valid is high. The design evaluates every 65536 bits.
