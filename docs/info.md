@@ -13,11 +13,10 @@ This design takes a bit every clock cycles and evaluates if the bit source is ra
 The output is given every 65536 cycles. The is_random signal is to be checked only when the valid signal is high. 
 ## How to test
 
-Explain how to use your project
-
+Provide Clock and input bit.
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Non for now. Planning to add soon
 
 ## How to use 
 send one bit per clock cycle to the epsilon port. check is_random when valid is high. The design evaluates every 65536 bits.
