@@ -23,7 +23,7 @@ async def test_adder(dut):
   dut.rst_n.value = 1
 
   # Set the input values, wait one clock cycle, and check the output
-  for i in range(65536):
+  for i in range(65539):
     dut.ui_in.value = i % 2
     await ClockCycles(dut.clk, 1)
 
