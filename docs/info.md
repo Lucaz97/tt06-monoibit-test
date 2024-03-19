@@ -9,8 +9,8 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
-
+This design takes a bit every clock cycles and evaluates if the bit source is random. This particular test is the Monobit test from NIST 800.22.
+The output is given every 65536 cycles. The is_random signal is to be checked only when the valid signal is high. 
 ## How to test
 
 Explain how to use your project
