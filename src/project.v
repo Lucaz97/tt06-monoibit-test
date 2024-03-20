@@ -56,7 +56,7 @@ module tt_um_lucaz97_monobit (
       .epsilon_rsc_dat(ui_in[0]),
       .epsilon_triosy_lz());
   // All output pins must be assigned. If not used, assign to 0.
-  assign uo_out[7:6] = 0;  // Example: ou_out is the sum of ui_in and uio_in
+  //assign uo_out[7:6] = 0;  // Example: ou_out is the sum of ui_in and uio_in
   assign uio_out = 0;
   assign uio_oe  = 0;
 
